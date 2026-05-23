@@ -34,6 +34,19 @@ Output:
 The full runnable example is [`example.capa`](./example.capa);
 it demonstrates default vs verbose loggers and every level.
 
+## Install via capa.toml
+
+```toml
+[dependencies.capa_log]
+git = "https://github.com/nelsonduarte/capa_log"
+tag = "v0.1.1"
+verify_key = "6C1D222D491FB88031E041A536CFB426101AA24B"
+```
+
+`capa install` runs `git verify-tag` against your GPG keyring;
+import the publisher's key first (see [`SECURITY.md`](SECURITY.md)
+for the fingerprint provenance and `gpg --import` instructions).
+
 ## API surface
 
 ### Levels (from `capa_log.log`)
