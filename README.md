@@ -39,7 +39,7 @@ it demonstrates default vs verbose loggers and every level.
 ```toml
 [dependencies.capa_log]
 git = "https://github.com/nelsonduarte/capa_log"
-tag = "v0.1.1"
+tag = "v0.1.2"
 verify_key = "6C1D222D491FB88031E041A536CFB426101AA24B"
 ```
 
